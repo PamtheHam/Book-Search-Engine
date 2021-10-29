@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {
   Jumbotron,
   Container,
@@ -6,7 +6,7 @@ import {
   Card,
   Button,
 } from "react-bootstrap";
-import { useQuery, useMutation } from "@apollo/client";
+import { useQuery, useMutation } from "@apollo/react-hooks";
 import { REMOVE_BOOK } from "../utils/mutations";
 import { GET_ME } from "../utils/queries";
 import Auth from "../utils/auth";
@@ -26,7 +26,7 @@ const SavedBooks = () => {
     }
 
     try {
-      const response = await removeBook({ variables: { bookId: bookId } });
+      const response = await removeBook({ variables: { bookId } });
 
       if (!response.ok) {
         throw new Error("something went wrong!");
