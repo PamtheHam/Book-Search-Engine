@@ -16,8 +16,7 @@ SO THAT I can keep a list of books to purchase
 
 ## Link to Deployed Application
 
-[Deployed Application]()
-![Screenshot of app]()
+[Deployed Application](https://protected-inlet-35395.herokuapp.com/)
 
 ## Table of Contents
 
@@ -46,15 +45,15 @@ SO THAT I can keep a list of books to purchase
 
 ## Usage
 
--
+- Use this app to search for books that you would like to read, find information on books, and save books in your profile.
 
 ## Challenges
 
--
+- There were many challenges to this application, but the biggest hurdle I came across was getting my Apollo server to connect correctly. For some reason, starting both the client side and the server side servers was causing 500 errors. Ultimately had to resort to starting the server only from the server side.
 
 ## Future Development
 
--
+- If I were to continue working on this Book Search Engine, I would make it so that once the 'save book' button is clicked, that specific book is no longer able to be clicked on. At this point, the books are able to be saved multiple times.
 
 ## Contact
 
