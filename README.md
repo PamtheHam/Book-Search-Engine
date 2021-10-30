@@ -8,10 +8,10 @@ A Fully functioning Google Books API search engine built with a GraphQL API. The
 
 ## User Story
 
-```
-AS A
-I WANT
-SO THAT
+```md
+AS AN avid reader
+I WANT to search for new books to read
+SO THAT I can keep a list of books to purchase
 ```
 
 ## Link to Deployed Application
